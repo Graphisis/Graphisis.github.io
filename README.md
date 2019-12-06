@@ -1,1 +1,1 @@
-# Graphisis&co.github.io
+# Graphisis.github.io
