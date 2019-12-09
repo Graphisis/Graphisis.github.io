@@ -141,16 +141,15 @@ p2{
 	font-size: 18px;
 }
 
-
 #boite3{
 	margin-left: 800px;
-	margin-top: -150px;
+	margin-top: -170px;
 }
 
 
 #boite4{
-	margin-left: 1120px;
-	margin-top: -450px;
+	margin-left: 800px;
+	margin-top: 20px;
 }
 
 #boite5{
@@ -158,59 +157,8 @@ p2{
 	margin-top: 20px;
 }
 
-
 #boite6{
-	margin-left: 1120px;
-	margin-top: -450px;
-}
-
-
-#boite7{
-	margin-left: 800px;
-	margin-top: 20px;
-}
-
-#boite8{
-	margin-left: 1120px;
-	margin-top: -450px;
-}
-
-#boite9{
-	margin-left: 800px;
-	margin-top: 20px;
-}
-
-#boite10{
-	margin-left: 1120px;
-	margin-top: -450px;
-}
-
-#boite11{
-	margin-left: 800px;
-	margin-top: 20px;
-}
-
-
-#boite12{
-	margin-left: 1120px;
-	margin-top: -450px;
-}
-
-
-#boite13{
-	margin-left: 800px;
-	margin-top: 20px;
-}
-
-
-#boite14{
-	margin-left: 1120px;
-	margin-top: -450px;
-}
-
-#boite15{
 	font-family: Baskerville;
 	margin-left: 1450px;
-	margin-top: -2650px; 
-	position: fixed;
+	margin-top: -1520px;
 }
