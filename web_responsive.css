@@ -1,0 +1,55 @@
+body{
+	background-color: white;
+}
+
+#contener{
+	width: 100%;
+}
+
+#titre{
+	margin-top: 5px;
+	margin-left:10px;
+}
+
+h1{
+	font-family: 'Franklin Gothic Medium', arial;
+	font-size: 89px;
+	color: black;
+	width: 0px;
+	margin-top: 5px;
+}
+
+h2{
+	font-family: 'Franklin Gothic Medium', arial;
+	font-size: 89px;
+	line-height: 50pt;
+	margin-top: -10px;
+
+}
+
+ul{
+	font-family: 'Franklin Gothic Medium', arial;
+	font-size: 89px;
+	margin-left: 10px;
+	line-height: 50pt;
+
+}
+
+#infos{
+	font-family: 'Franklin Gothic Medium', arial;
+	font-size: 89px;
+	margin-left: 10px;
+	line-height: 50pt;
+
+}
+
+#nul{
+	font-family: 'Franklin Gothic Medium', arial;
+	font-size: 89px;
+	margin-left: 72%;
+	color: black;
+}
+
+li{
+	width: 500px;
+}
