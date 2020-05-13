@@ -1,0 +1,115 @@
+<html> 
+ <head>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="style/style_illustration.css">
+ 	 <link href="http://fr.allfont.net/allfont.css?fonts=franklin-gothic-medium" rel="stylesheet" type="text/css" />
+ 	<title>G&CO</title>
+ </head>
+
+ <body>
+ 	<div id="contener">
+ 		<header>
+ 			<div id="titre">
+ 				<h1 class="pointer"><a href="index.html"style="text-decoration:none;">G&Co</a></h1>
+ 				<h2>PROJET</h2>
+ 		</header>
+ 	
+
+
+ <h3>Illustrations</h3> 
+  <p>Présentation de quelques illustrations réalisées ces dernières années. Des cours au simple passe-temps, ces illustrations montrent ma diversité dans le domaine. </p>
+
+ 	<div id="bouton" class="pointer" onclick="javascript:viewImage('image');">Mythologie Grecque</div>
+  <div id="image"></div>
+  <div id="bouton2" class="pointer" onclick="javascript:viewImage2('image2');">Mythologies Autre</div>
+  <div id="image2"></div>
+  <div id="bouton3" class="pointer" onclick="javascript:viewImage3('image3');">Animaux</div>
+  <div id="image3"></div>
+
+  <div id="infos">
+ 		2020
+ 	</div>
+ 	
+
+ 	<ul>
+ 		<li class="pointer"><a href="Carte.html"style="text-decoration:none;">Back</a></li>
+ 		<li class="pointer"><a href="Print.html"style="text-decoration:none;">Next</a></li>
+ 		<li class="pointer"><a href="Contact.html"style="text-decoration:none;">ABOUT</a></li>
+ 			
+ 	</ul>
+
+ 	
+
+ 	<div id="nul">6=-</div>
+
+
+
+
+ 	</div>
+ 	
+
+  
+<script type="text/javascript">
+  function afficher_cacher(id)
+    {
+      if(document.getElementById(id).style.visibility=="hidden")
+        {
+          document.getElementById(id).style.visibility="visible";
+          /*document.getElementById('bouton_'+id).innerHTML='Cacher le texte';*/
+
+        }
+        else
+        {
+          document.getElementById(id).style.visibility="hidden";
+          /*document.getElementById('bouton_'+id).innerHTML='Afficher le texte';*/
+
+        }
+        return true;
+    }
+ </script>
+  
+  <script type="text/javascript">
+            
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage(id) {
+                var contenuImage=!afficher ? "<img src='document/'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage;
+                document.getElementById("bouton").innerHTML=contenuBouton;
+            }
+ 
+
+  </script>
+            
+    <script type="text/javascript">
+            
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage2(id) {
+                var contenuImage2=!afficher ? "<img src='document/dessinmythologique.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage2;
+                document.getElementById("bouton2").innerHTML=contenuBouton2;
+            }
+    </script>
+
+    <script type="text/javascript">
+            
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage3(id) {
+                var contenuImage3=!afficher ? "<img src='document/animaux.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage3;
+                document.getElementById("bouton3").innerHTML=contenuBouton3;
+            }
+    </script>
+
+ </body>

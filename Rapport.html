@@ -1,0 +1,66 @@
+<html> 
+ <head>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="style/style_rds.css">
+ 	 <link href="http://fr.allfont.net/allfont.css?fonts=franklin-gothic-medium" rel="stylesheet" type="text/css" />
+ 	<title>G&CO</title>
+ </head>
+
+ <body>
+ 	<div id="contener">
+ 		<header>
+ 			<div id="titre">
+ 				<h1 class="pointer"><a href="index.html"style="text-decoration:none;">G&Co</a></h1>
+ 				<h2>PROJET</h2>
+ 		</header>
+ 	
+
+
+ <h3>Le RdS</h3> 
+  <p>Réalisation de mon rappport de stage témoignant de mon expérience professionnelle au sein de l'Agence Inédit en 2018. Ce rapport prend la forme d'un roman classique. <br>Ainsi j'intaure les codes qui régisse ces conceptions littéraires: mise en place de chapîtres; de la Baskerville, typographie de la littérature anglaise des années 1800; réalisation d'une reliure "dos carré-collé" à la main permettant une bonne préhension de l'objet ainsi que <br>la création d'une fausse maison d'édition "Les Editions Montreuilloises" en poussant au maximum le mimétisme.  </p>
+
+ 		
+ 	
+	<div id="bouton1" class="pointer" onclick="javascript:viewImage('image');">Mock Up</div>
+ 	<div id="image"></div>
+
+  <div id="infos">
+ 		2020
+ 	</div>
+ 	
+
+ 	<ul>
+ 		<li class="pointer"><a href="Iconomix.html"style="text-decoration:none;">Back</a></li>
+ 		<li class="pointer"><a href="Carte.html"style="text-decoration:none;">Next</a></li>
+ 		<li class="pointer"><a href="Contact.html"style="text-decoration:none;">ABOUT</a></li>
+ 			
+ 	</ul>
+
+ 	
+
+ 	<div id="nul">6=-</div>
+
+
+
+
+ 	</div>
+ 	
+  <script type="text/javascript">
+           	
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage(id) {
+                var contenuImage=!afficher ? "<img src='document/rapport.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage;
+                document.getElementById("bouton1").innerHTML=contenuBouton;
+            }
+ 
+
+	</script>
+            
+  
+
+ </body>

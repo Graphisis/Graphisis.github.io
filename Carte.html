@@ -1,0 +1,82 @@
+<html> 
+ <head>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="style/style_carte.css">
+ 	 <link href="http://fr.allfont.net/allfont.css?fonts=franklin-gothic-medium" rel="stylesheet" type="text/css" />
+ 	<title>G&CO</title>
+ </head>
+
+ <body>
+ 	<div id="contener">
+ 		<header>
+ 			<div id="titre">
+ 				<h1 class="pointer"><a href="index.html"style="text-decoration:none;">G&Co</a></h1>
+ 				<h2>PROJET</h2>
+ 		</header>
+ 	
+
+
+ <h3>Carte G&Co</h3> 
+  <p>Conception de mon logo ainsi que de ma carte de visite. Mon logo reprend les 2 "D" correspondant à mes initiales. Le logo se voit conférer un aspect ludique et avenant grâce aux initiales qui deviennent analogue à des yeux, se référant à l'accroche "Un oeil sur tout" qu'il est possible de lire sur la carte. </p>
+
+ 	<div id="bouton2" class="pointer" onclick="javascript:viewImage('image2');">Logo</div>
+  <div id="image2"></div>
+ 	
+	<div id="bouton1" class="pointer" onclick="javascript:viewImage('image');">Mock Up</div>
+  <div id="image"></div>
+
+  <div id="infos">
+ 		2020
+ 	</div>
+ 	
+
+ 	<ul>
+ 		<li class="pointer"><a href="Iconomix.html"style="text-decoration:none;">Back</a></li>
+ 		<li class="pointer"><a href="illustration.html"style="text-decoration:none;">Next</a></li>
+ 		<li class="pointer"><a href="Contact.html"style="text-decoration:none;">ABOUT</a></li>
+ 			
+ 	</ul>
+
+ 	
+
+ 	<div id="nul">6=-</div>
+
+
+
+
+ 	</div>
+ 	
+  <script type="text/javascript">
+           	
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage(id) {
+                var contenuImage=!afficher ? "<img src='document/carte.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage;
+                document.getElementById("bouton1").innerHTML=contenuBouton;
+            }
+ 
+
+	</script>
+           
+  <script type="text/javascript">
+            
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage(id) {
+                var contenuImage=!afficher ? "<img src='document/carte.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage;
+                document.getElementById("bouton1").innerHTML=contenuBouton;
+            }
+ 
+
+  </script> 
+  
+
+ </body>
