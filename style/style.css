@@ -70,8 +70,7 @@ body{
 
 
 h1{
-	font-family: "Franklin Gothic Medium", arial;
-	font-variant: normal;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 89px;
 	color: black;
 	width: 0px;
@@ -87,20 +86,18 @@ h1.pointer{
 
 
 h2{
-	font-family: "Franklin Gothic Medium", arial;
-	font-variant: normal;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 89px;
-	line-height: 50pt;
+	line-height: 54pt;
 	margin-top: -10px;
 
 }
 
 ul{
-	font-family: "Franklin Gothic Medium", arial;
-	font-variant: normal;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 89px;
 	margin-left: 20px;
-	line-height: 50pt;
+	line-height: 54pt;
 
 }
 
@@ -127,11 +124,10 @@ a:hover{
 }
 
 #infos{
-	font-family: "Franklin Gothic Medium", arial;
-	font-variant: normal;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 89px;
 	margin-left: 20px;
-	line-height: 50pt;
+	line-height: 54pt;
 
 }
 
@@ -139,8 +135,7 @@ a:hover{
 
 
 #nul{
-	font-family: "Franklin Gothic Medium", arial;
-	font-variant: normal;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 89px;
 	margin-left: 90%;
 	color: black;
