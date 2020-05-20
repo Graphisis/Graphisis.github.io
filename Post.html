@@ -1,0 +1,67 @@
+<html> 
+ <head>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="style/style_post.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+ 	<title>G&CO</title>
+ </head>
+
+ <body>
+ 	<div id="contener">
+ 		<header>
+ 			<div id="titre">
+ 				<h1 class="pointer"><a href="index.html"style="text-decoration:none;">G&Co</a></h1>
+ 				<h2>Post_Card</h2>
+ 		</header>
+ 	
+
+
+ 
+  <FONT face="Lucida Console"> <p>
+    -<br>Nature: Cartes postales<br>
+        Principe: Collection<br>
+        Exemplaires: 12<br>
+        Format: 14,8*10,5cm<br>
+        Date: 2019<br>-<br>
+    Réalisation d'une série de 12 cartes postales inspirées des travaux de <a href="http://felicite.land" target="_blank" style="text-decoration: none; color: blue;">Félicité Landrivon</a>, autour de la culture populaire, et des programmes de conception de Georges Pérec. Mise en place d'un protocole de création régissant la conception des différentes cartes postales. Il permet de définir la disposition des éléments typographiques et visuels mais aussi des choix chromatiques afin d'incorporer un esprit de collection.<br>-<br></p></FONT>
+
+ 		<span id="blinker">Cliquez sur:</span>
+ 	
+	<FONT face="Lucida Console"><div id="bouton1" class="pointer" onclick="javascript:viewImage('image');"><FONT size="2px">Mock Up</div></FONT>
+ 	<FONT face="Lucida Console"><div id="image"></div>
+ 	
+
+ <FONT face="Lucida Console"><p><FONT size="2px">
+ 		<a href="Archi.html"style="text-decoration:none;">Back</a><br>
+ 		<a href="Iconomix.html"style="text-decoration:none;">Next</a><br>
+ 		<a href="Contact.html"style="text-decoration:none;">ABOUT</a><br>
+    -
+ 			
+ 	</p></FONT>
+
+  <footer>Code & design par Dorian Deleris 2020</footer>
+
+
+ 	</div>
+ 	
+  <script type="text/javascript">
+           	
+            var afficher=false; //permet de savoir si l'image est affichée ou non
+             
+            function viewImage(id) {
+                var contenuImage=!afficher ? "<img src='document/card.jpg'>" : ""; //en fonction de afficher on met l'image ou non
+                afficher=!afficher;
+               // var contenuBouton=afficher ? "LOGO" : "LOGO" ; //On met un texte correspondant
+                 
+                document.getElementById(id).innerHTML=contenuImage;
+                document.getElementById("bouton1").innerHTML=contenuBouton;
+            }
+ 
+
+	</script>
+            
+  <script type="text/javascript">
+    var blink_speed = 500; var t = setInterval(function () { var ele = document.getElementById('blinker'); ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden'); }, blink_speed);
+  </script>
+
+ </body>
