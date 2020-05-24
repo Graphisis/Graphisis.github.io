@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+</style>
+
+
+body{
+	background-color: white
+}
+
+#contener{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#titre{
+	
+	background-color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1{
+	border-width: 4px;
+	border-color: black;
+	border-style: solid;
+	font-family: 'DM Mono', monospace;
+	font-size: 30px;
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	
+}
+
+#somaire{
+
+	background-color: white;
+	width: 100%;
+}
+
+
+
+
+
+
+ul{
+
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	margin-left: 30px;
+	
+
+}
+
+li{
+	color: black;
+	background-color: none;
+	width: 650px;
+
+}
+
+li:hover{
+	color: blue;
+}
+
+li.pointer {
+	cursor: pointer;
+}
+a{
+	color: black;
+}
+
+a:hover{
+	color: blue;
+}
+
+#blinker{
+
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#blinker2{
+
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#blinker3{
+
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#description{
+	background-color: white;
+	font-family: 'DM Mono', monospace;
+	font-size: 10px;
+	width: 500px;
+	margin-left: 220px;
+	margin-top: -25%;
+}
+
+p{
+	font-family: 'DM Mono', monospace;
+	font-size: 10px;
+	margin-left: 30px;
+	color: black;
+	margin-top: 10px;
+	line-height: 10pt;
+}
+
+#date{
+
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#blinker4{
+
+	font-family:'DM Mono', monospace;
+	font-size: 10px;
+	
+}
+
+#boite1{
+	margin-left: 55%;
+	margin-top: -77%;
+}
+
+
+#blinker5{
+
+	font-family:'DM Mono', monospace;
+	font-size: 10px;
+	
+}
