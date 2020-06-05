@@ -1,0 +1,457 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+	/*background-color: red;*/
+}
+
+
+#conteneur{
+	width: 90%;
+	height: auto;
+	margin: auto;
+
+	transition: all 1s ease;
+	/*background-color: #72E1D1;*/
+}
+
+header{
+	width: 100%;
+	padding-top: 5px;
+	/*background-color: pink;*/
+
+}
+
+#titre{
+	
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+h1{
+	
+	font-family: 'DM Mono', monospace;
+	font-size: 30px;
+	color: black;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 30px;
+
+	}
+
+#projet{
+	width: 100%;
+	height: auto;
+	/*background-color: yellow;*/
+
+	}
+
+#liste{
+	float: left;
+	}
+
+ul{
+	width: 200px;
+	height:500px auto;
+	margin-top: 20px;
+	/*background-color: green;*/
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	
+	
+	}
+
+
+li{
+	font-family:'DM Mono', monospace;
+	font-size: 16px;
+	color: black;
+	width: 80%;
+	/*background-color: purple;*/
+	}
+
+li:hover{
+	color: blue;
+	}
+
+li.pointer {
+	cursor: pointer;
+	}
+
+a{
+	color: black;
+	}
+
+a:hover{
+	color: blue;
+	}
+
+
+#colone{
+	/*background-color: orange;*/
+	width: 250px;
+	height: 600px auto;
+	display: inline-block;
+	margin-top: 120px;
+	float: left;
+
+	}
+
+p{
+	font-family:'DM Mono', monospace;
+	font-size: 10px;
+	color:black;
+	/*background-color: pink;*/
+	line-height: 10pt;
+	width: 80%;
+	}
+
+#image{
+	width: auto;
+	height: auto;
+	/*background-color: brown;*/
+	display: block;
+	margin-left: 450px;
+}
+
+article{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 120px;
+}
+
+
+
+.zoom {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+article1{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-top: 120px;
+	margin-left: 20px;
+}
+
+
+
+.zoom1 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom1:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article2{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+
+.zoom2 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom2:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article3{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	
+	margin-left: 20px;
+}
+
+
+
+.zoom3 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom3:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article4{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+
+.zoom4 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom4:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+article5{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	
+	margin-left: 20px;
+}
+
+
+
+.zoom5 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom5:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article6{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+
+.zoom6 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom6:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article7{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	
+	margin-left: 20px;
+}
+
+
+
+.zoom7 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom7:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article8{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+
+.zoom8 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom8:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+article9{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	
+	margin-left: 20px;
+}
+
+
+
+.zoom9 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom9:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+article10{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+
+.zoom10 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom10:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+article11{
+	/*background-color: cyan;*/
+	width: 300px;
+	height: 450px;
+	display: inline-block;
+	
+	margin-left: 20px;
+}
+
+
+
+.zoom11 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	font-family:'DM Mono', monospace;
+	font-size: 12px;
+	/*background-color: grey;*/
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 20px;
+
+
+}
+
