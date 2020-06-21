@@ -168,6 +168,7 @@ p{
 	margin-left: 450px;
 }
 
+
 article{
 	/*background-color: cyan;*/
 	width: 250px;
@@ -223,8 +224,8 @@ article4{
 
 article5{
 	/*background-color: cyan;*/
-	width: 250px;
-	height: 350px;
+	width: 525px;
+	height: 420px;
 	display: inline-block;
 	margin-left: 20%;
 	margin-top: 20px;
@@ -234,14 +235,13 @@ article5{
 
 article6{
 	/*background-color: cyan;*/
-	width: 250px;
-	height: 350px;
+	width: 525px;
+	height: 420px;
 	display: inline-block;
-	margin-left: 20px;
-	margin-top: 20px;
+	margin-left: 20%;
+	margin-top: 10px;
 	
 }
-
 
 
 
@@ -256,4 +256,3 @@ footer{
 
 
 }
-
